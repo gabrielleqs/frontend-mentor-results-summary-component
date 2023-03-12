@@ -5,43 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <main>
+    <article class="score-container">
+      <h2>Your Result</h2>
+      <div class="circle">
+        <p class="bigger-score">76</p>
+        <p>of 100</p>
+      </div>
+      <h1>Great</h1>
+      <p class="score-message">You scored higher than 65% of the people who have taken these tests.</p>
+    </article>
+    
+    <section class="summary-container">
+      <h2>Summary</h2>
+      <div>
+        <div class="skill-box reaction-box">
+          <div class="left-part">
+            <img class="icon" src="assets/images/icon-reaction.svg" alt="reaction icon">
+            <p class="summary-skills reaction">Reaction</p>
+          </div>
+          <div class="right-part">
+            <p class="test-score">80 </p>
+            <p class="base-score">/ 100</p>
+          </div>
+        </div>
+        <div class="skill-box memory-box">
+          <div class="left-part">
+            <img class="icon" src="assets/images/icon-memory.svg" alt="memory icon">
+            <p class="summary-skills memory">Memory</p>
+          </div>
+          <div class="right-part">
+            <p class="test-score">92 </p>
+            <p class="base-score">/ 100</p>
+          </div>
+        </div>
+        <div class="skill-box verbal-box">
+          <div  class="left-part">
+            <img class="icon" src="assets/images/icon-verbal.svg" alt="verbal icon">
+            <p class="summary-skills verbal">Verbal</p>
+          </div>
+          <div class="right-part">
+            <p class="test-score">61 </p>
+            <p class="base-score">/ 100</p>
+          </div>
+        </div>
+        <div class="skill-box visual-box">
+          <div class="left-part">
+            <img class="icon" src="assets/images/icon-visual.svg" alt="visual icon">
+            <p class="summary-skills visual">Visual</p>
+          </div>
+          <div class="right-part">
+            <p class="test-score">72 </p>
+            <p class="base-score">/ 100</p>
+          </div>
+        </div>
+      </div>
+      <button>Continue</button>
+    </section>
+  </main>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
