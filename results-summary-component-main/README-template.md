@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://gabrielleqs.github.io/frontend-mentor-results-summary-component/)
 
 ## My process
 
